@@ -13,9 +13,9 @@
 from Afvalwijzer import Afvalwijzer
 import requests
 
-# My adress info
-zipcode = '4823GC'
-number = 55
+# Your adress info (Netherlands)
+zipcode = 'xxxxxx'
+number = xx
 
 # Get the info
 garbage = Afvalwijzer(zipcode, number)
